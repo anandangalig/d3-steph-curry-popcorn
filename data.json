@@ -1,0 +1,320 @@
+{
+  "Dallas Mavericks": {
+    "team_name": "Dallas Mavericks",
+    "team_city": "American Airlines Center",
+    "freshness": 5,
+    "saltiness": 5,
+    "crunchiness": 4,
+    "butter": 5,
+    "presentation": 5,
+    "total": 24
+  },
+
+  "Brooklyn Nets": {
+    "team_name": "Brooklyn Nets",
+    "team_city": "Barclays Center",
+    "freshness": 4,
+    "saltiness": 5,
+    "crunchiness": 5,
+    "butter": 4,
+    "presentation": 5,
+    "total": 23
+  },
+
+  "Miami Heat": {
+    "team_name": "Miami Heat",
+    "team_city": "American Airlines Arena",
+    "freshness": 5,
+    "saltiness": 4,
+    "crunchiness": 4,
+    "butter": 4,
+    "presentation": 5,
+    "total": 22
+  },
+
+  "Portland Trailblazers": {
+    "team_name": "Portland Trailblazers",
+    "team_city": "Moda Center",
+    "freshness": 4,
+    "saltiness": 4,
+    "crunchiness": 5,
+    "butter": 4,
+    "presentation": 3,
+    "total": 20
+  },
+
+  "Sacramento Kings": {
+    "team_name": "Sacramento Kings",
+    "team_city": "Golden 1 Center",
+    "freshness": 2,
+    "saltiness": 4,
+    "crunchiness": 4,
+    "butter": 4,
+    "presentation": 5,
+    "total": 19
+  },
+
+  "Toronto Raptors": {
+    "team_name": "Toronto Raptors",
+    "team_city": "Scotiabank Arena",
+    "freshness": 3,
+    "saltiness": 4,
+    "crunchiness": 3,
+    "butter": 4,
+    "presentation": 4,
+    "total": 18
+  },
+
+  "Houston Rockets": {
+    "team_name": "Houston Rockets",
+    "team_city": "Toyota Center",
+    "freshness": 3,
+    "saltiness": 4,
+    "crunchiness": 3,
+    "butter": 4,
+    "presentation": 4,
+    "total": 18
+  },
+
+  "Oklahoma City Thunder": {
+    "team_name": "Oklahoma City Thunder",
+    "team_city": "Chesapeake Energy Arena",
+    "freshness": 4,
+    "saltiness": 3,
+    "crunchiness": 4,
+    "butter": 4,
+    "presentation": 3,
+    "total": 18
+  },
+
+  "Golden State Warriors": {
+    "team_name": "Golden State Warriors",
+    "team_city": "Oracle Arena",
+    "freshness": 2,
+    "saltiness": 4,
+    "crunchiness": 5,
+    "butter": 3,
+    "presentation": 4,
+    "total": 18
+  },
+
+  "New York City Knicks": {
+    "team_name": "New York City Knicks",
+    "team_city": "Madison Square Garden",
+    "freshness": 3,
+    "saltiness": 2,
+    "crunchiness": 4,
+    "butter": 4,
+    "presentation": 4,
+    "total": 17
+  },
+
+  "Indiana Pacers": {
+    "team_name": "Indiana Pacers",
+    "team_city": "Bankers Life Fieldhouse",
+    "freshness": 3,
+    "saltiness": 3,
+    "crunchiness": 5,
+    "butter": 4,
+    "presentation": 2,
+    "total": 17
+  },
+
+  "New Orleans Pelicans": {
+    "team_name": "New Orleans Pelicans",
+    "team_city": "Smoothie King Center",
+    "freshness": 3,
+    "saltiness": 3,
+    "crunchiness": 3,
+    "butter": 3,
+    "presentation": 5,
+    "total": 17
+  },
+
+  "Minnesota Timberwolves": {
+    "team_name": "Minnesota Timberwolves",
+    "team_city": "Target Center",
+    "freshness": 2,
+    "saltiness": 5,
+    "crunchiness": 4,
+    "butter": 3,
+    "presentation": 3,
+    "total": 17
+  },
+
+  "Washington Wizards": {
+    "team_name": "Washington Wizards",
+    "team_city": "Capital One Arena",
+    "freshness": 4,
+    "saltiness": 3,
+    "crunchiness": 3,
+    "butter": 4,
+    "presentation": 3,
+    "total": 17
+  },
+
+  "Chicago Bulls": {
+    "team_name": "Chicago Bulls",
+    "team_city": "United Center",
+    "freshness": 3,
+    "saltiness": 4,
+    "crunchiness": 3,
+    "butter": 3,
+    "presentation": 3,
+    "total": 16
+  },
+
+  "Utah Jazz": {
+    "team_name": "Utah Jazz",
+    "team_city": "Vivint Smart Home Arena",
+    "freshness": 2,
+    "saltiness": 5,
+    "crunchiness": 4,
+    "butter": 3,
+    "presentation": 2,
+    "total": 16
+  },
+
+  "Atlanta Hawks": {
+    "team_name": "Atlanta Hawks",
+    "team_city": "State Farm Arena",
+    "freshness": 3,
+    "saltiness": 5,
+    "crunchiness": 4,
+    "butter": 3,
+    "presentation": 1,
+    "total": 16
+  },
+
+  "San Antonio Spurs": {
+    "team_name": "San Antonio Spurs",
+    "team_city": "AT&T Center",
+    "freshness": 3,
+    "saltiness": 3,
+    "crunchiness": 3,
+    "butter": 3,
+    "presentation": 3,
+    "total": 15
+  },
+
+  "Philadelphia Sixers": {
+    "team_name": "Philadelphia Sixers",
+    "team_city": "Wells Fargo Center",
+    "freshness": 4,
+    "saltiness": 2,
+    "crunchiness": 4,
+    "butter": 2,
+    "presentation": 2,
+    "total": 14
+  },
+
+  "Phoenix Suns": {
+    "team_name": "Phoenix Suns",
+    "team_city": "Talking Stick Resort Arena",
+    "freshness": 3,
+    "saltiness": 3,
+    "crunchiness": 3,
+    "butter": 3,
+    "presentation": 2,
+    "total": 14
+  },
+
+  "Milwaukee Bucks": {
+    "team_name": "Milwaukee Bucks",
+    "team_city": "Fiserv Forum",
+    "freshness": 2,
+    "saltiness": 2,
+    "crunchiness": 3,
+    "butter": 4,
+    "presentation": 2,
+    "total": 13
+  },
+
+  "Boston Celtics": {
+    "team_name": "Boston Celtics",
+    "team_city": "TD Garden",
+    "freshness": 3,
+    "saltiness": 3,
+    "crunchiness": 2,
+    "butter": 3,
+    "presentation": 2,
+    "total": 13
+  },
+
+  "Memphis Grizzlies": {
+    "team_name": "Memphis Grizzlies",
+    "team_city": "FedExForum",
+    "freshness": 1,
+    "saltiness": 4,
+    "crunchiness": 4,
+    "butter": 3,
+    "presentation": 1,
+    "total": 13
+  },
+
+  "Orlando Magic": {
+    "team_name": "Orlando Magic",
+    "team_city": "Amway Center",
+    "freshness": 3,
+    "saltiness": 5,
+    "crunchiness": 3,
+    "butter": 1,
+    "presentation": 1,
+    "total": 13
+  },
+
+  "Denver Nuggets": {
+    "team_name": " Denver Nuggets",
+    "team_city": "Pepsi Center",
+    "freshness": 3,
+    "saltiness": 2,
+    "crunchiness": 3,
+    "butter": 2,
+    "presentation": 3,
+    "total": 13
+  },
+
+  "Cleveland Cavaliers": {
+    "team_name": "Cleveland Cavaliers",
+    "team_city": "Rocket Mortgage Fieldhouse",
+    "freshness": 2,
+    "saltiness": 4,
+    "crunchiness": 2,
+    "butter": 2,
+    "presentation": 2,
+    "total": 12
+  },
+
+  "Detroit Pistons": {
+    "team_name": "Detroit Pistons",
+    "team_city": "Little Caesars Arena",
+    "freshness": 1,
+    "saltiness": 4,
+    "crunchiness": 2,
+    "butter": 3,
+    "presentation": 2,
+    "total": 12
+  },
+
+  "Charlotte Hornets": {
+    "team_name": "Charlotte Hornets",
+    "team_city": "Spectrum Center",
+    "freshness": 1,
+    "saltiness": 2,
+    "crunchiness": 2,
+    "butter": 2,
+    "presentation": 4,
+    "total": 11
+  },
+
+  "Los Angeles Clippers/Lakers": {
+    "team_name": "Los Angeles Clippers/Lakers",
+    "team_city": "Staples Center",
+    "freshness": 2,
+    "saltiness": 1,
+    "crunchiness": 3,
+    "butter": 1,
+    "presentation": 3,
+    "total": 10
+  }
+}
