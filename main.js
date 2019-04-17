@@ -52,15 +52,29 @@ function update(data) {
     .enter()
     .append('rect')
     .attr('fill', 'steelblue')
+    .attr('data-teamname', function(d) {
+      return d.team_name;
+    })
     .attr('y', function(d) {
       return y(d.team_name);
     })
     .attr('height', y.bandwidth())
+    .on('mouseover', mouseOverBar)
+    .on('mouseout', mouseOutOfBar)
     .merge(rects)
     .transition(t)
     .attr('width', function(d) {
       return x(d[rating_select]);
     });
+}
+
+// helper functions:
+function mouseOverBar() {
+  console.log(this);
+  d3.select(this).attr('fill', 'DarkOrange');
+}
+function mouseOutOfBar() {
+  d3.select(this).attr('fill', 'steelblue');
 }
 
 // load data asynchronously and set locations
