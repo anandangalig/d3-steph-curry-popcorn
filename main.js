@@ -27,7 +27,6 @@ const yAxisGroup = svg.append('g');
 function update(data) {
   const t = d3.transition().duration(1000);
   const rating_select = $('#rating_select').val();
-
   // complete the ranges by adding domains (data specific)
   x.domain([
     0,
@@ -45,7 +44,7 @@ function update(data) {
   // complete y axis
   yAxisGroup.transition(t).call(d3.axisLeft(y));
 
-  // update pattern:
+  // update bars:
   const rects = svg.selectAll('rect').data(data);
   rects.exit().remove();
   rects
@@ -66,11 +65,31 @@ function update(data) {
     .attr('width', function(d) {
       return x(d[rating_select]);
     });
-}
 
+  // update bar labels:
+  const labels = svg.selectAll('text.value').data(data);
+  labels.exit().remove();
+  labels
+    .enter()
+    .append('text')
+    .attr('class', 'value')
+    .attr('fill', 'white')
+    .attr('text-anchor', 'end')
+    .merge(labels)
+    .transition(t)
+    .text(d => {
+      return d[rating_select];
+    })
+    .attr('x', d => {
+      return x(d[rating_select]) - 10;
+    })
+    .attr('y', d => {
+      return y(d.team_name) + y.bandwidth() / 2 + 5;
+    });
+}
 // helper functions:
 function mouseOverBar() {
-  console.log(this);
+  let currentlyFocusedTeam = this.getAttribute('data-teamname');
   d3.select(this).attr('fill', 'DarkOrange');
 }
 function mouseOutOfBar() {
