@@ -11,18 +11,23 @@
     />
     <title>NBA venues rated on Popcorn - Steph Curry</title>
   </head>
-  <body>
+  <body style="padding-top: 25px;">
     <div class="ui container">
-      <h1>NBA venues rated on Popcorn - according to Steph Curry</h1>
-      <div>
-        <select id="rating_select" class="form-control">
-          <option selected value="total">Overall</option>
-          <option value="butter">Butteriness</option>
-          <option value="crunchiness">Crunchiness</option>
-          <option value="freshness">Freshness</option>
-          <option value="presentation">Presentation</option>
-          <option value="saltiness">Saltiness</option>
-        </select>
+      <div class="ui center aligned container">
+        <h1>NBA venues rated on Popcorn - according to Steph Curry</h1>
+        <div>
+          <select id="rating_select" class="form-control ui dropdown">
+            <option selected value="total">Overall</option>
+            <option value="butter">Butteriness</option>
+            <option value="crunchiness">Crunchiness</option>
+            <option value="freshness">Freshness</option>
+            <option value="presentation">Presentation</option>
+            <option value="saltiness">Saltiness</option>
+          </select>
+          <a href="https://github.com/anandangalig/d3-steph-curry-popcorn" target="_blank"
+            ><button class="ui positive button">See code on GitHub</button></a
+          >
+        </div>
       </div>
       <div id="chart_area"></div>
     </div>

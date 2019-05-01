@@ -1,5 +1,5 @@
 // dimensions and margins of the graph
-const margin = { top: 20, right: 20, bottom: 30, left: 150 };
+const margin = { top: 20, right: 20, bottom: 30, left: 200 };
 const width = 960 - margin.left - margin.right;
 const height = 800 - margin.top - margin.bottom;
 
@@ -91,9 +91,22 @@ function update(data) {
 function mouseOverBar() {
   let currentlyFocusedTeam = this.getAttribute('data-teamname');
   d3.select(this).attr('fill', 'DarkOrange');
+  d3.selectAll('text')
+    .filter(function() {
+      return d3.select(this).text() == currentlyFocusedTeam;
+    })
+    .attr('font-weight', 'bold')
+    .attr('font-size', '12px');
 }
 function mouseOutOfBar() {
+  let currentlyFocusedTeam = this.getAttribute('data-teamname');
   d3.select(this).attr('fill', 'steelblue');
+  d3.selectAll('text')
+    .filter(function() {
+      return d3.select(this).text() == currentlyFocusedTeam;
+    })
+    .attr('font-weight', 'normal')
+    .attr('font-size', '10px');
 }
 
 // load data asynchronously and set locations
