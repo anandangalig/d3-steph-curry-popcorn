@@ -1,7 +1,9 @@
 // dimensions and margins of the graph
-const margin = { top: 20, right: 20, bottom: 30, left: 200 };
-const width = 960 - margin.left - margin.right;
-const height = 800 - margin.top - margin.bottom;
+const viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+const margin = { top: 20, right: 15, bottom: 30, left: 150 };
+const width = viewportWidth * 0.8 - margin.left - margin.right;
+const height = viewportHeight * 0.8 - margin.top - margin.bottom;
 
 // ranges
 const y = d3
