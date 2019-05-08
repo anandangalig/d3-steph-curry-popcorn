@@ -2,7 +2,7 @@
 const viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 const margin = { top: 20, right: 15, bottom: 30, left: 150 };
-const width = viewportWidth * 0.8 - margin.left - margin.right;
+const width = viewportWidth * 0.6 - margin.left - margin.right;
 const height = viewportHeight * 0.8 - margin.top - margin.bottom;
 
 // ranges
